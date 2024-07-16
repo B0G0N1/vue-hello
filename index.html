@@ -7,7 +7,13 @@
     <title>Hello Vue</title>
 </head>
 <body>
+    <div id="app" class="container mt-5">
+        <h1>{{ message }}</h1>
+        <img :src="imageUrl" alt="Vue logo" class="img-fluid">
+    </div>
+
+    <!-- Aggiungo link Script -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./js/script.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
 </body>
 </html>
